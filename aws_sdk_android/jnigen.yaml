@@ -1,0 +1,25 @@
+# Run with `dart run jnigen --config jnigen.yaml`.
+android_sdk_config:
+  add_gradle_deps: true
+  android_example: example/
+suspend_fun_to_async: true
+enable_experiment:
+  - interface_implementation
+output:
+  dart:
+    path: lib/src/jni/
+log_level: all
+classes:
+  - aws.smithy.kotlin.runtime.auth.awscredentials.Credentials
+  - aws.smithy.kotlin.runtime.auth.awscredentials.CredentialsProvider
+  - aws.smithy.kotlin.runtime.content.ByteStream
+  - aws.smithy.kotlin.runtime.content.ByteStreamJVMKt
+  - aws.smithy.kotlin.runtime.net.url.Url
+  - aws.smithy.kotlin.runtime.net.url.UrlEncoding
+  - aws.sdk.kotlin.runtime.auth.credentials.StaticCredentialsProvider
+  - aws.sdk.kotlin.services.s3.S3Client
+  - aws.sdk.kotlin.services.s3.model.PutObjectRequest
+  - aws.sdk.kotlin.services.s3.model.PutObjectResponse
+  - dev.hebei.aws_sdk_android.AWSClient
+  - dev.hebei.aws_sdk_android.AWSCredentialsProvider
+  - java.io.File
