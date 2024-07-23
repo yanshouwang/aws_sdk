@@ -21,25 +21,25 @@ packages:
     dependency: transitive
     description:
       name: aws_sdk_android
-      sha256: cd5dfa5d067afb73ee1469c329bc87b419d588ecfb7d574fd2fbd593957517e6
+      sha256: "07a61ce83a74ffac745badba436cad64ed92f51579fbbc968d2e9dcbfe2ec006"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.1-dev.0"
+    version: "0.0.1-dev.1"
   aws_sdk_flutter:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1-dev.0"
+    version: "0.0.1-dev.1"
   aws_sdk_platform_interface:
     dependency: transitive
     description:
       name: aws_sdk_platform_interface
-      sha256: "184e489b52331fb77e354ca12698be2ff54d14badfb2766ec4b592773dbad293"
+      sha256: "1b5549b2e2bb6949a45fb2b9ff6b2ddd44d5be5dda96aacf1e5e0824dc906a26"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.1-dev.0"
+    version: "0.0.1-dev.1"
   boolean_selector:
     dependency: transitive
     description:

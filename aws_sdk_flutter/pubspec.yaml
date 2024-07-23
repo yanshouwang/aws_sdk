@@ -1,20 +1,19 @@
 name: aws_sdk_flutter
 description: "Develop and deploy applications with the AWS SDK for Flutter. The SDK makes it easy to call AWS services using idiomatic Flutter APIs."
-version: 0.0.1-dev.0
+version: 0.0.1-dev.1
 repository: "https://github.com/yanshouwang/aws_sdk"
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
-  flutter: '>=3.3.0'
+  flutter: '>=3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  web: ^1.0.0
-  aws_sdk_platform_interface: ^0.0.1-dev.0
-  aws_sdk_android: ^0.0.1-dev.0
+  aws_sdk_platform_interface: ^0.0.1-dev.1
+  aws_sdk_android: ^0.0.1-dev.1
 
 dev_dependencies:
   flutter_test:
