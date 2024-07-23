@@ -31,8 +31,14 @@ abstract base class AWSSDKPlugin extends PlatformInterface {
     _instance = instance;
   }
 
+  AWSCredentialsProvider createStaticCredentialsProvider({
+    required String accessKeyId,
+    required String secretAccessKey,
+    String? sessionToken,
+  });
+
   AWSClient createClient({
-    required String endpoint,
+    required Uri endpointUri,
     required String region,
     required AWSCredentialsProvider credentialsProvider,
   });

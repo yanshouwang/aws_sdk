@@ -9,12 +9,12 @@ abstract interface class AWSClient {
   });
 
   factory AWSClient({
-    required String endpoint,
+    required Uri endpointUri,
     required String region,
     required AWSCredentialsProvider credentialsProvider,
   }) {
     return AWSSDKPlugin.instance.createClient(
-      endpoint: endpoint,
+      endpointUri: endpointUri,
       region: region,
       credentialsProvider: credentialsProvider,
     );

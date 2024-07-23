@@ -1,1 +1,1 @@
-export 'src/aws_sdk_android_plugin.dart';
+export 'src/aws_sdk_plugin.dart';

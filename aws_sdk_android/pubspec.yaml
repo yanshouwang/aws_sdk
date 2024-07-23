@@ -1,28 +1,27 @@
 name: aws_sdk_android
-description: "A new Flutter plugin project."
-version: 0.0.1
-homepage:
+description: "Android implementation of the aws_sdk plugin."
+version: 0.0.1-dev.0
+repository: "https://github.com/yanshouwang/aws_sdk"
 
 environment:
-  sdk: '>=3.4.3 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: '>=3.3.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  aws_sdk_platform_interface:
-    path: ../aws_sdk_platform_interface
+  aws_sdk_platform_interface: ^0.0.1-dev.0
   jni: ^0.10.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
   jnigen: ^0.10.0
 
 flutter:
   plugin:
-    implements: aws_sdk
+    implements: aws_sdk_flutter
     platforms:
       android:
         package: dev.hebei.aws_sdk_android

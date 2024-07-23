@@ -1,11 +1,15 @@
-final class AWSCredentialsProvider {
-  final String accessKeyId;
-  final String secretAccessKey;
-  final String? sessionToken;
+import 'aws_sdk_plugin.dart';
 
-  AWSCredentialsProvider({
-    required this.accessKeyId,
-    required this.secretAccessKey,
-    this.sessionToken,
-  });
+abstract interface class AWSCredentialsProvider {
+  factory AWSCredentialsProvider.static({
+    required String accessKeyId,
+    required String secretAccessKey,
+    String? sessionToken,
+  }) {
+    return AWSSDKPlugin.instance.createStaticCredentialsProvider(
+      accessKeyId: accessKeyId,
+      secretAccessKey: secretAccessKey,
+      sessionToken: sessionToken,
+    );
+  }
 }

@@ -5,21 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "aws_sdk",
-            "cwd": "aws_sdk\\example",
+            "name": "aws_sdk_flutter",
+            "cwd": "aws_sdk_flutter\\example",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "aws_sdk (profile mode)",
-            "cwd": "aws_sdk\\example",
+            "name": "aws_sdk_flutter (profile mode)",
+            "cwd": "aws_sdk_flutter\\example",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "aws_sdk (release mode)",
-            "cwd": "aws_sdk\\example",
+            "name": "aws_sdk_flutter (release mode)",
+            "cwd": "aws_sdk_flutter\\example",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

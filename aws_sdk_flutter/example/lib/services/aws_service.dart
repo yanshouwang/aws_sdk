@@ -1,4 +1,4 @@
-import 'package:aws_sdk_platform_interface/aws_sdk_platform_interface.dart';
+import 'package:aws_sdk_flutter/aws_sdk_flutter.dart';
 
 import 'oss_service.dart';
 

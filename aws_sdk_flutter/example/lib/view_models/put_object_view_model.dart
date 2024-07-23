@@ -1,4 +1,4 @@
-import 'package:aws_sdk_android_example/services.dart';
+import 'package:aws_sdk_flutter_example/services.dart';
 import 'package:clover/clover.dart';
 import 'package:file_selector/file_selector.dart';
 import 'package:flutter/foundation.dart';
